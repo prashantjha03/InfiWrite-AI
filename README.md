@@ -14,11 +14,12 @@ It enables users to generate high-quality content for blogs, social media, marke
 🎯 Custom prompts for flexible generation
 📱 Fully responsive UI
 🔐 Secure API handling with environment variables
+
 🛠️ Tech Stack
 Frontend: Next.js, React, Tailwind CSS
 Backend: Next.js API Routes / Server Actions
 AI Integration: Google Gemini
-Deployment: Vercel
+
 📂 Project Structure
 InfiWrite-AI/
 │── app/                # App Router pages
@@ -27,23 +28,27 @@ InfiWrite-AI/
 │── public/             # Static assets
 │── styles/             # Global styles
 │── .env.local          # Environment variables
+
 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/your-username/InfiWrite-AI.git
 cd InfiWrite-AI
-2. Install dependencies
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
+
+3. Install dependencies
+# npm install
+ or
+# yarn install
+ or
+# pnpm install
+ or
+# bun install
+
 3. Configure Environment Variables
 
 Create a .env.local file in the root directory:
 
 GEMINI_API_KEY=your_api_key_here
+
 4. Run the development server
 npm run dev
 
@@ -55,29 +60,17 @@ Frontend sends request to backend
 Backend calls Gemini API
 AI processes and generates content
 Response is displayed in UI
-🚀 Deployment
 
-Deploy easily using Vercel
-
-npm run build
-npm start
-
-Or connect your GitHub repo directly to Vercel.
 
 🔐 Environment Variables
 Variable	Description
 GEMINI_API_KEY	API key for Gemini AI
+
 📚 Learn More
 Next.js Docs: https://nextjs.org/docs
 Google Gemini Docs: https://ai.google.dev
-🤝 Contributing
 
-Contributions are welcome!
-Fork the repo, create a feature branch, and submit a PR.
 
-📄 License
-
-This project is licensed under the MIT License.
 
 💡 Future Improvements
 🔐 Authentication system (JWT / OAuth)
